@@ -1,0 +1,642 @@
+1 урок
+Main.Java
+public class Main {
+/**
+* $param args
+*/
+public static void main (String []args){
+System.out.println ("Hello world");
+System.out.print("Hello");
+}
+}
+
+2 урок
+Main.Java
+public class Main {
+/**
+* $param args
+*/
+public static void main (String []args){
+System.out.println ("Hello world!");
+}
+}
+Main.Java
+package pack;
+public class Main {
+public static void main (String []args){
+System.out.println ("main!");
+}
+}
+Hello.Java
+package Package.pack2.pack3;
+public class Hello {
+public static void main (String []args){
+System.out.println ("Hello!");
+}
+}
+
+
+
+
+
+
+3 урок
+Main.Java
+public class Main (
+
+/**
+* $param args
+*/
+public static void main (String []args){
+System.out.println ("Hello world!");
+
+int a = 10;
+int b = 3;
+int res = a / b;
+
+System.out.println (res);
+}
+}
+4 урок
+Main.Java
+public class Main (
+
+/**
+* $param args
+*/
+public static void main (String []args){
+System.out.println ("Hello world!");
+
+int a = 2;
+int b = 98;
+int c = 78;
+
+double res = (((double) (a+ b + c) / 3) + 1)/(a+b);
+
+System.out.println (res);
+}
+}
+
+
+
+
+
+
+
+
+5 урок
+Main.Java
+public class Main (
+
+public static void main (String []args){
+
+int a = 2;
+int b = 3;
+int res = ((a + b++ - —a) * (++b-a--)) + a + b-a— + ++a;
+
+System.out.println ("res:" + res);
+}
+}
+6 урок
+Main.Java
+public class Main (
+
+public static void main (String []args){
+
+int a = -1;
+int b = 98;
+int с = 0;
+
+logic flag = ((c < b+5) & & (b > 100) & & (a !=0)) | | ((a + b-c) (a > 0);
+
+System.out.println (flag);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+7 урок operator условия if
+Main.Java
+public class Main (
+
+public static void main (String []args){
+
+int c = 5;
+int b = 10;
+
+if ((b >= c) && (с != 0)) {
+
+
+}
+}
+}
+8 урок
+Main.java operator if блок else
+public class Main (
+
+public static void main (String []args){
+
+int c = 15;
+int b = 10;
+
+if ((b >= c) && (с != 0)) {
+System.out.println ("yes");
+} else {
+System.out.println ("no");
+}
+
+}
+}
+
+
+
+
+
+
+
+
+
+9 урок
+Main.java Арифметические операции с присваиванием
+public class Main (
+
+public static void main (String []args){
+
+/*
+
++=
+*=
+/=
+-=
+%=
+
+x += y; = > x = x + y;
+*/
+
+double а = 9;
+double b = 10;
+double c = 5;
+а += b;
+а %= 4;
+а /= (с + 1)/2 + а;
+а -= 0.5;
+а -= 0.5;
+а -= 0.5;
+а -= 0.5;
+а -= 0.5;
+а -= 0.5;
+System.out.println ("a: "+ a);
+}
+}
+
+
+
+
+
+
+
+
+10 урок
+Main.java operator цикла for
+public class Main {
+
+public static void main (String[] args) {
+
+/*
+
+for (инициализация; условие; шаг) {
+//Тело цикла
+}
+
+*/
+
+int count = -1;
+int sum = 0;
+for (int i = -10; i ){
+if ((i % 3) = = 0){
+System.out.println(i);
+count++;
+}
+if (((count % 2) == 0) && ((i %3) = = 0)){
+sum += i;
+
+}
+}
+
+System.out.println ("sum:" + sum);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11 урок
+Main.java operator цикла while
+public class Main {
+
+public static void main (String[] args) {
+
+/*
+
+while (условие) {
+//Тело цикла
+}
+
+*/
+int sum = 0;
+int count = 0;
+int i = -100;
+
+while(i ){
+if(i % 4) = = 0){
+sum += i;
+count++;
+}
+i++;
+}
+
+double evg = (double)sum / count;
+System.out.println ("evg:" + evg);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+12 урок
+Main.java operator цикла do…while
+public class Main {
+
+public static void main (String[] args) {
+
+/*
+
+do {
+//тело цикла
+}while (условие);
+
+* */
+int i = 0;
+int sum = 0;
+
+do{
+sum +=I;
+i+=2;
+}while (i );
+
+System.out.println ("sum:" + sum);
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13 урок
+Main.java Одномерные массивы
+public class Main {
+
+public static void main (String[] args) {
+
+/*
+
+type name_mac[] = new type[SIZE];
+type []name_mac = new type[SIZE];
+type[] name_mac = new type[SIZE];
+
+*/
+int mas[] = new int[10];
+
+for(int i = 0; i < length; i++){
+mas[i] = (int)Math.round (math.random ()*100);
+System.out.println (mas[i] + ” ");
+}
+System.out.println();
+
+int min = mas[0];
+int n = 32;
+ибо
+ 
+(int i = 1; I < length; i++){
+if (min ]){
+min = mas[i];
+}
+}
+System.out.println ("min:" + min);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14 урок
+Main.cpp Двумерные массивы
+public class Main {
+
+public static void main (String[] args) {
+
+/*
+
+type name_mac [] []= new type[SIZE][SIZE];
+
+*/
+int mas[][] = new int[5][5];
+
+int min = -4;
+int max = 4;
+
+for(int i = 0; i < length; i++){
+for(int j = 0; j < length; j++){
+mas[i][j] = (int)math.round (math.random ()*((max-min) + i)));
+System.out.println (mas[i][j] + ” ");
+}
+System.out.println();
+}
+
+int count = 0;
+for (int i = 1; i < length; i++){
+for(int j = 1; j < length; j++){
+if(mas[i][j] = = 0){
+count++;
+j = mas[i].length;
+}
+}
+}
+System.out.println ("count:" + count);
+}
+
+
+
+
+
+
+
+
+
+15 урок
+Main.java Трехмерные и многомерные массивы
+public class Main {
+
+public static void main(String[] args) {
+
+/*
+
+type name_mac [] [] []= new type[SIZE] [SIZE] [SIZE][SIZE];
+
+*/
+int [][][][]mas = new int[5][5][5][7];
+
+int sum = 0;
+for(int i = 0; i < mas.lenght; i++){
+for(int j = 0; j < mas.lenght; j++){
+for(int k = 0; k < mas.lenght; k++){
+for(int m = 0; m < mas.lenght; m++){
+mas[i][j] [k][m] = i + j + k + m;
+sum += mas[i][j] [k][m];
+}
+}
+}
+}
+
+System.out.println ("sum: ” + sum);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+16 урок
+Main.java Массивы причудливой формы
+public class Main {
+
+public static void main (String[] args) {
+
+int [] [] mas = new int [20][];
+
+for(int i = 0; i < length; i++){
+mas[i] = new int [i+1];
+for(int j = 0; j < length; j++){
+mas[i] [j] = 1;
+}
+}
+
+for(int i = 0; i < length; i++){
+for(int j = 0; j < length; j++){
+System.out.println (mas[i][j] + " ");
+}
+System.out.println()
+}
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17 урок
+Main.cpp operator цикла for each
+public class Main {
+
+public static void main (String[] args) {
+
+/*
+
+for (объявление; массив/коллекция) {
+//Тело цикла
+}
+
+*/
+
+int [] [] mas = new int [10][8];
+
+for(int i = 0; i < length; i++) { for(int j = 0; j < length; j++){
+mas[i][j] = i + j;
+}
+}
+
+for (int []m; mas){
+for(int mm; m){
+System.out.println (мм + " ");
+}
+System.out.println();
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+18 урок
+Main.cpp operator безусловного перехода break
+public class Main {
+
+public static void main (String[] args) {
+
+/*
+
+break;
+
+*/
+
+метка: for(int i = 0; i ){
+for(int j = 0; j ){
+if (j > 5) break;
+System.out.println(j);
+}
+}
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19 урок
+Main.java operator ветвления switch
+public class Main {
+
+public static void main (String[] args) {
+
+double а = 3,0;
+double b = 4,0;
+operator char=' - ';
+
+double result = 0,0;
+
+switch (operator){
+case'+': result = a + b; break;
+case' -': result = a-b; break;
+case'*': result = a * b; break;
+case'/': result = a/ b; break;
+case'%': result = a % b; break;
+default: result = Double.Nan;
+}
+
+System.out.println (a + String.valueOf (operator) + b + " = " + result);
+}
+
+
+
+20 урок
+Main.java operator безусловного перехода continue
+public class Main {
+
+public static void main (String[] args) {
+
+/*
+
+continue;
+
+*/
+
+label: for(int i = 0; i < 100; i++){
+for(int j = 0; j < 100; j++){
+if(j > 5)continue label;
+System.out.println(j);
+}
+System.out.println("aaaaaaaaaaa”);
+}
+
+}
+}
